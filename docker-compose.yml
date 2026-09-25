@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    # Mounts your current local directory (.) to /app inside the container
+    volumes:
+      - .:/app
