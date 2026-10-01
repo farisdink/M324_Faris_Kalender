@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "update:safe": "ncu --cooldown 3"
+    "update:safe": "ncu --cooldown 3",
+    "npx-demo": "npx cowsay 'NPX is awesome!'"
   },
   "dependencies": {
     "chalk": "^6.0.1",
