@@ -5,8 +5,9 @@
   "description": "Exam M324",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "lint": "eslint ."
+    "start": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "engines": {
     "node": ">=24.0.0",
